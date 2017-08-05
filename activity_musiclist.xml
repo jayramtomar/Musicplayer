@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1de18e"
+    tools:context="com.example.musicplayer.musiclistActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textColor="#123456"
+        android:background="#C228AD"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Song List" />
+
+    <Button
+        android:id="@+id/button"
+        android:textColor="#904567"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View list" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/musiclist"
+        android:layout_height="330dp"
+        android:layout_weight="0.88" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="#C228AD"
+        android:layout_height="wrap_content"
+        android:text="Click song to play"
+        android:layout_weight="0.67" />
+
+
+</LinearLayout>
